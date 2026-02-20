@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\bullet.gif" />
+    <None Remove="Images\enemy.gif" />
+    <None Remove="Images\player.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\ZsoltMadarász\OneDrive - BGéSZC Katona József Technikum\12D webprog\Player.cs" Link="Player.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\bullet.gif" />
+    <Resource Include="Images\enemy.gif" />
+    <Resource Include="Images\player.gif" />
+  </ItemGroup>
+
+</Project>
